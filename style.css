@@ -1,0 +1,53 @@
+/* Apply styles to the header */
+header {
+    background-color: #5aa662;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Apply styles to links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Apply styles to the main content */
+main {
+    margin: 20px;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for links on hover */
+a:hover {
+    color: #ff5500;
+}
+
+/* Style for the active link */
+a:active {
+    color: #ff0000;
+}
+
+/* Style for odd-numbered list items */
+li:nth-child(odd) {
+    background-color: #f0f0f0;
+}

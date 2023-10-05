@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 5</title>
+    <!-- Linked Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* CSS for specific elements using selectors */
+
+        /* Tag selector for headings */
+        h1 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        /* Class selector for special text */
+        .important-text {
+            color: #ff5733;
+            font-weight: bold;
+        }
+
+        /* ID selector for the page content */
+        #page-content {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* CSS for hover effect on links */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* CSS for specific attribute values */
+        [href="index.html"] {
+            color: #007bff;
+        }
+
+        /* Combinatorial selector for nested lists */
+        ul ul {
+            list-style-type: square;
+        }
+
+        /* Child selector for nested lists */
+        ul > li {
+            margin-left: 20px;
+        }
+
+        /* Pseudo-class for active link */
+        a:active {
+            color: #ff0000;
+        }
+
+        /* Pseudo-class for hovering over links */
+        a:hover {
+            background-color: #eee;
+        }
+
+        /* Pseudo-class for nth-child */
+        li:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        /* Not selector to exclude specific elements */
+        p:not(.important-text) {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <li><a href="index.html">Go Back to Home</a></li>
+    <!-- Page 5 Content -->
+    <div id="page-content">
+        <h1>Welcome to Page 5</h1>
+        <p>This is the content of Page 5. It demonstrates various CSS selectors and styles.</p>
+        <p class="important-text">This text is important!</p>
+        <ul>    
+        </ul>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+    </div>
+</body>
+</html>
