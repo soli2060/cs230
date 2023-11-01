@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 8</title>
+</head>
+<body>
+    <h1>Welcome to Page 8</h1>
+
+    <!-- Form with various elements -->
+    <form>
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Slider Input -->
+        <label for="slider">Slider:</label>
+        <input type="range" id="slider" name="slider" min="0" max="100"><br><br>
+
+        <!-- Date and Time Input -->
+        <label for="datetime">Date and Time:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Select Dropdown (Single-select) -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Select Dropdown (Multi-select) -->
+        <label for="fruits">Select Fruits:</label>
+        <select id="fruits" name="fruits" multiple>
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+        </select><br><br>
+
+        <!-- Checkboxes -->
+        <label>Choose your hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+        <label for="gaming">Gaming</label><br>
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+        <label for="cooking">Cooking</label><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Choose your gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Reciprocal link to index.html -->
+    <a href="index.html">Back to Index</a>
+
+</body>
+</html>
