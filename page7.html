@@ -3,67 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add your website icon (favicon) -->
     <title>Page 7</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
-        /* Add your CSS rules for this page here if needed */
-        body {
-            font-family: Arial, sans-serif;
+        /* Responsive design using @media */
+        @media screen and (max-width: 768px) {
+            /* Adjust styles for smaller screens */
         }
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
+        /* CSS Grid and Flex layout */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
+        .sidebar {
+            background-color: lightgray;
+            padding: 10px;
         }
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
+        .main-content {
+            background-color: lightblue;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Page 7</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="page7.html">Page 7</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <p><main>
-            <h2>Welcome to ShubhaMegh LLC</h2>
-            <p>At ShubhaMegh LLC, we are dedicated to providing you with valuable guidance and suggestions to help you achieve your future goals. With a commitment to excellence and a passion for your success, we are your trusted partner on the journey towards realizing your dreams.</p>
-        
-            <p>Our experienced team is here to offer tailored solutions and expert advice that empower you to make informed decisions for a brighter tomorrow. Whether you're striving for personal growth, professional success, or business expansion, we're here to support you every step of the way.</p>
-        
-            <p>Thank you for choosing ShubhaMegh LLC as your partner in shaping a successful future. Together, we'll navigate the path to your aspirations and bring your goals within reach.</p>
-        </main>
-        </p>
-    </main>
+    <nav>
+        <!-- Navigation menu here -->
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <!-- Sidebar content here -->
+        </div>
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <!-- Main content here -->
+        </div>
+    </div>
     <footer>
-        <p>&copy; ShubhaMegh  Website </p>
+        <p>&copy; 2023 Your Name</p>
     </footer>
+    <!-- Reciprocal link to index.html -->
+    <a href="index.html">Go to Index</a>
 </body>
 </html>
