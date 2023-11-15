@@ -1,50 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 7</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- Include Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>My Page</title>
     <style>
-* Base styles for larger screens */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
 
-        /* Responsive design using @media */
-        @media screen and (max-width: 768px) {
-            /* Adjust styles for smaller screens */
+        header, nav, .container, footer {
+            padding: 10px;
+            background-color: #333;
+            color: white;
         }
 
-        /* CSS Grid and Flex layout */
         .container {
             display: grid;
             grid-template-columns: 1fr 2fr;
-            height: 55vh;
             gap: 20px;
             margin: 20px;
-        }
-
-        .sidebar {
-            background-color: dark chocalate;
-            padding: 10px;
-        }
-
-        .main-content {
-            background color: light blue;
-            padding: 10px;
-        }
-
-        /* CSS Flexbox for the navigation menu */
-        nav {
-            display: flex;
-            justify-content: space-between;
-            background-color: #333;
-            padding: 10px;
         }
 
         nav a {
@@ -53,25 +30,16 @@
             padding: 10px;
         }
 
-        nav a: hover {
+        nav a:hover {
             background-color: #555;
-        }
-
-        /* Additional styling */
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Page 7</h1>
+        <h1>My Page</h1>
     </header>
     <nav>
-        <!-- Navigation menu here -->
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
@@ -79,20 +47,15 @@
     <div class="container">
         <div class="sidebar">
             <h2>Sidebar</h2>
-            <!-- Sidebar content here -->
+            <p>Sidebar content here</p>
         </div>
         <div class="main-content">
             <h2>Main Content</h2>
-            <!-- Main content here -->
+            <p>Main content here</p>
         </div>
     </div>
     <footer>
-        <p>&copy; 2023 Shubham Oli</p>
+        <p>&copy; 2023 Your Name</p>
     </footer>
-<!--Include an icon using Font Awesome.
-    <div class="icon">
-        <i class="fas fa-smile"></i>
-    </div>
-    <!-- Reciprocal link to index.html -->
 </body>
 </html>
