@@ -5,21 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 6</title>
     <style>
-        /* Add your CSS styles here */
         body {
             margin: 0;
             padding: 20px;
-            font-family: Arial, sans-serif; }
-        
+            font-family: Arial, sans-serif;
+        }
+
         .container {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
             border: 1px solid #000;
+            position: relative;
         }
-        
-* Additional styling for the text *  p {
+
+        p {
             margin: 10px;
+        }
+
+        /* Additional styling for the text */
+
+        /* Added styles for position: absolute */
+        .absolute-box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 50%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        /* Added styles for position: fixed */
+        .fixed-box {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 30%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        /* Added styles for position: relative */
+        .relative-box {
+            position: relative;
+            left: 20px;
+            top: 20px;
+            width: 40%;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
         }
     </style>
 </head>
@@ -35,10 +71,15 @@
             <li>Margins</li>
             <li>Border width</li>
             <li>Position: absolute, fixed, relative</li>
-            <li>Left/top/right/down</li>
+            <li>Left/top/right/bottom</li>
             <li>Width/height (and/or min-width, min-height, max-width, max-height)</li>
             <li>Size units: %, px (and/or pt, em, cm/in)</li>
         </ul>
+
+        <!-- Added elements to demonstrate position properties -->
+        <div class="absolute-box">Absolute Box</div>
+        <div class="fixed-box">Fixed Box</div>
+        <div class="relative-box">Relative Box</div>
     </div>
 </body>
 </html>
