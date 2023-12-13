@@ -15,14 +15,16 @@
     }
 
     /* Additional styling */
-    .container {
-      margin: 20px;
+    body {
+      margin: 20px; /* Change from .container to body for margin */
     }
 
     .nav-container {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 10px; /* Add padding to nav-container */
+      background-color: #333; /* Add background color to nav-container */
     }
 
     main {
@@ -46,8 +48,8 @@
 <body>
   <nav>
     <div class="nav-container">
-      <a href="index.html">Go Back to Home Page</a>
-      <a href="page7.html">Page 7</a>
+      <a href="index.html" style="color: white;">Go Back to Home Page</a>
+      <a href="page7.html" style="color: white;">Page 7</a>
     </div>
   </nav>
   <div class="container">
@@ -62,7 +64,7 @@
   </div>
   <footer>
     <p>&copy; ShubhaMegh LLC 2023</p>
-    <img src="icon.png" alt="Website Icon"> <!-- Example icon usage -->
+    <img src="images/icon.png" alt="Website Icon"> <!-- Update the path to the correct location of the icon -->
   </footer>
 </body>
 </html>
