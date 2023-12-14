@@ -22,6 +22,7 @@ nav li {
 a {
     text-decoration: none;
     color: #007bff;
+    transition: color 0.3s ease; /* Smooth transition for link color */
 }
 
 /* Apply styles to the main content */
@@ -50,4 +51,27 @@ a:active {
 /* Style for odd-numbered list items */
 li:nth-child(odd) {
     background-color: #f0f0f0;
+}
+
+/* Additional styles for main content */
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Style for a button */
+button {
+    background-color: #ff5500;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+button:hover {
+    background-color: #cc4400;
 }
